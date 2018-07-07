@@ -69,9 +69,9 @@ MITライセンスです。
 
 までを自動で行います。
 
-![ZIPファイル作成後のメール編集画面](docs/imgs/maiL_3.png)
+![ZIPファイル作成後のメール編集画面](docs/imgs/mail_3.png)
 
-![パスワード通知メール編集画面](docs/imgs/maiL_4.png)
+![パスワード通知メール編集画面](docs/imgs/mail_4.png)
 
 
 
