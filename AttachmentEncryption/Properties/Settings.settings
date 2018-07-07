@@ -1,7 +1,42 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AttachmentEncryption.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TempFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mm0205\AttachmentEncryption\Temp</Value>
+    </Setting>
+    <Setting Name="AutoSending" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FileNamePrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">attach_</Value>
+    </Setting>
+    <Setting Name="PasswordMailTitlePrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[パスワードのお知らせ] </Value>
+    </Setting>
+    <Setting Name="FileNameDateTimeFormat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yyyyMMdd</Value>
+    </Setting>
+    <Setting Name="PasswordMailTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{{ for toName in tos }}{{ toName }}様
+{{ end }}
+
+{{ company }}の{{ user }}です
+先ほどのメールの添付ファイルのパスワードをお知らせします。
+
+件名: {{ subject }}
+パスワード: {{ password }}
+
+どうぞよろしくお願い致します。
+
+＃自社製のOutlookアドインによって、誤送信防止および
+自動添付ファイル暗号化を実現しています</Value>
+    </Setting>
+    <Setting Name="DefaultCompany" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[会社名]</Value>
+    </Setting>
+    <Setting Name="DefaultUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[ユーザー名]</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
