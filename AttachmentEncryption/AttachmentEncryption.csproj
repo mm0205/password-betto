@@ -261,7 +261,7 @@
     <ManifestKeyFile>AttachmentEncryption_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>335ED90E04A499A7D35362AF3E7398015CD6C327</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>357897EA9DB3381179C329DC7BFA14FD00121BE5</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

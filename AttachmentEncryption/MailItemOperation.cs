@@ -95,7 +95,7 @@ namespace AttachmentEncryption
                 Tos = result.Tos(),
                 Company = Properties.Settings.Default.DefaultCompany,
                 User = Properties.Settings.Default.DefaultUserName,
-                Subject = Properties.Settings.Default.PasswordMailTitlePrefix + sourceMail.Subject,
+                sourceMail.Subject,
                 Password = password,
             });
 
