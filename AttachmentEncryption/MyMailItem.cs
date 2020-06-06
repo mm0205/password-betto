@@ -63,9 +63,9 @@ namespace AttachmentEncryption
         {
             // ※ バグっぽい書き方だけど、これで良いらしい。
 
-            foreach(Outlook.Attachment attachment in RawItem.Attachments)
+            while(RawItem.Attachments.Count > 0)
             {
-                attachment.Delete();
+                RawItem.Attachments.Remove(1);
             }
         }
 
