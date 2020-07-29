@@ -12,6 +12,7 @@ namespace AttachmentEncryption
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            Configuration.Load();
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
